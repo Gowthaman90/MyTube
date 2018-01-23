@@ -1,0 +1,79 @@
+.TileBorder {
+  margin: 10px;
+  /* border: 1px solid black; */
+  padding: 5px;
+  /* box-sizing: border-box; */
+  width: 300px;
+  height: 100px;
+  /* background-color: #ccffff; */
+  background: linear-gradient(to right, #cceeff 0%, #ffffff 100%);
+}
+
+.videoTileImage {
+  margin: 4px;
+  /* display: inline-block; */
+  height: 80px;
+  width: 100px;
+}
+
+.videoListPalet {
+  /* margin-left: 5px; */
+  /* border: 1px solid black; */
+  /* padding: 5px; */
+  box-sizing: border-box;
+  width: 400px;
+  height: 850px;
+  overflow: auto;
+}
+
+.playerDiv {
+  margin-top: 15px;
+  height: 73%;
+  width: 100%
+}
+
+.VideoInfo {
+  margin-top: 10px;
+  font-size: 2px; 
+  font-size: 1vw;
+  /* border: 1px solid black; */
+  padding: 5px;
+  margin-top: 15px;
+  box-sizing: border-box;
+  width: 100%;
+  height: 220px;
+  background-color: #b3e6ff;
+}
+
+.searchBar {
+  margin-top: 10px;
+  width: 100%;
+  color: #888;
+}
+
+.appHeader {
+  /* display: flex; */
+  /* position: fixed; */
+  padding: 10px 16px;
+  margin: 15px;
+  font-family: cursive;
+  background: linear-gradient(to right, #33ccff 0%, #9999ff 100%);
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+
+.appStype {
+  background: linear-gradient(to bottom, #ffffff 0%, #ccffff 100%);
+}
